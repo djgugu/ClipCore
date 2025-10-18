@@ -1,0 +1,81 @@
+# ======================
+# Build artifacts
+# ======================
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.log
+
+# ======================
+# User-specific files
+# ======================
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ======================
+# Visual Studio
+# ======================
+.vs/
+.vscode/
+*.code-workspace
+
+# ======================
+# NuGet
+# ======================
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# ======================
+# Configuration / Secrets
+# ======================
+appsettings.json
+appsettings.*.json
+.env
+.env.*
+secrets.json
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# Test results
+# ======================
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# ======================
+# Resharper / Rider / JetBrains
+# ======================
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# ======================
+# Docker / DevOps
+# ======================
+**/docker-compose.override.yml
+**/Dockerfile.*
+*.tgz
+*.tmp
+*.bak
+
+# ======================
+# System files
+# ======================
+Thumbs.db
+Desktop.ini
+.DS_Store

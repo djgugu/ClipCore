@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="SharedKernel\" />
+    <Folder Include="Videos\Entities\" />
+    <Folder Include="Videos\Events\" />
+    <Folder Include="Videos\Exceptions\" />
+    <Folder Include="Videos\Repositories\" />
+    <Folder Include="Videos\ValueObjects\" />
+    <Folder Include="Users\Entities\" />
+    <Folder Include="Users\Events\" />
+    <Folder Include="Users\Exceptions\" />
+    <Folder Include="Users\Repositories\" />
+    <Folder Include="Users\ValueObjects\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,83 @@
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Angular / Node
+# ======================
+node_modules/
+dist/
+out-tsc/
+bazel-out/
+tmp/
+.angular/
+.angular/cache/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================
+# .NET / Backend
+# ======================
+bin/
+obj/
+*.user
+*.suo
+*.dll
+*.exe
+*.pdb
+*.app
+*.vs/
+.vscode/
+*.csproj.user
+
+# ======================
+# IDE / Editor
+# ======================
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.code-workspace
+.history/
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# Environment / Secrets
+# ======================
+.env
+.env.local
+.env.*.local
+appsettings.*.json
+
+# ======================
+# Test / Coverage
+# ======================
+coverage/
+*.lcov
+testem.log
+
+# ======================
+# Miscellaneous
+# ======================
+.sass-cache/
+connect.lock
+libpeerconnection.log
+
+# ======================
+# VS Code (keep useful configs)
+# ======================
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

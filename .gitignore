@@ -1,0 +1,77 @@
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Node / Angular Frontend
+# ======================
+node_modules/
+dist/
+build/
+.angular/
+out-tsc/
+.cache/
+.tmp/
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# .NET / Backend
+# ======================
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+
+# ======================
+# Visual Studio / VSCode
+# ======================
+.vs/
+.vscode/
+*.code-workspace
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# Environment / Secrets
+# ======================
+.env
+.env.local
+.env.*.local
+appsettings.*.json
+appsettings.Development.json
+appsettings.Production.json
+
+# ======================
+# Docker / Kubernetes / DevOps
+# ======================
+docker-compose.override.yml
+**/k8s/*.local.yaml
+*.tgz
+
+# ======================
+# Test / Coverage
+# ======================
+coverage/
+*.lcov
+
+# ======================
+# Backup / Temporary Files
+# ======================
+*.bak
+*.swp
+*.swo

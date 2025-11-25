@@ -1,1 +1,1 @@
-# ClipCore2
+# ClipCore
